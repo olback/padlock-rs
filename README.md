@@ -1,3 +1,3 @@
 # Padlock
 
-Safely acquire RwLock/Mutex locks and never worry about remembering dropping them!
+Safely acquire RwLock/Mutex locks and never worry about remembering to drop them!
