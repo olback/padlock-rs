@@ -4,7 +4,7 @@ use std::sync::{
     atomic::spin_loop_hint
 };
 
-pub fn rw_read_lock<T, F, R>(l: RwLock<T>, f: F) -> R
+pub fn rw_read_lock<T, F, R>(l: &RwLock<T>, f: F) -> R
     where F: FnOnce(&T) -> R {
 
     let r: R;
