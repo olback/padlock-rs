@@ -1,6 +1,6 @@
 [package]
 name = "padlock"
-version = "0.1.1-alpha"
+version = "0.2.0"
 authors = ["Edwin Svensson <padlock@olback.net>"]
 edition = "2018"
 description = "Safely acquire RwLock/Mutex locks."
