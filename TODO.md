@@ -1,5 +1,0 @@
-# Todo:
-
-* [ ] Documentation
-* [ ] Tests
-* [ ] CircleCI
